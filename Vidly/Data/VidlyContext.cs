@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using Vidly.Models;
 
 namespace Vidly.Data
 {

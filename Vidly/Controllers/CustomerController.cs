@@ -18,8 +18,9 @@ namespace Vidly.Controllers
         // GET: Customer
         public ActionResult Index()
         {
-
-            return View(db.Customers.ToList());
+            // The Include method allows you to get data from another Model, in this case, DiscountRate
+            // from MembershipType model. This is called Eager Loading.
+            return View(db.Customers.Include(c => c.MembershipType).ToList());
         }
 
         // GET: Customer/Details/5

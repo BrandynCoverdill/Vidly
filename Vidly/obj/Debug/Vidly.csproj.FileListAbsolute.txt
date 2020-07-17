@@ -170,3 +170,6 @@ C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources

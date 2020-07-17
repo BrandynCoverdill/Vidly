@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.Data.Entity.Infrastructure.MappingViews;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -30,13 +31,21 @@ namespace Vidly.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Customer customer = db.Customers.Find(id);
+            Customer customer = db.Customers.Include(c => c.MembershipType).SingleOrDefault(c => c.Id == id);
             if (customer == null)
             {
                 return HttpNotFound();
             }
             return View(customer);
         }
+
+        public ActionResult Action()
+        {
+
+
+            return View();
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

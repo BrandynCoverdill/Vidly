@@ -198,6 +198,30 @@
     <Compile Include="Migrations\202007172032295_ApplyAnnotationsToCustomerName.designer.cs">
       <DependentUpon>202007172032295_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202007172054181_AddedNameToMembershipTypeModel.cs" />
+    <Compile Include="Migrations\202007172054181_AddedNameToMembershipTypeModel.designer.cs">
+      <DependentUpon>202007172054181_AddedNameToMembershipTypeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007172055461_updateExistingRecords.cs" />
+    <Compile Include="Migrations\202007172055461_updateExistingRecords.designer.cs">
+      <DependentUpon>202007172055461_updateExistingRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007172107512_AddedBirthdateToCustomer.cs" />
+    <Compile Include="Migrations\202007172107512_AddedBirthdateToCustomer.designer.cs">
+      <DependentUpon>202007172107512_AddedBirthdateToCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007172120111_FixedBirthdateForCustomer.cs" />
+    <Compile Include="Migrations\202007172120111_FixedBirthdateForCustomer.designer.cs">
+      <DependentUpon>202007172120111_FixedBirthdateForCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007172201031_AddedMovieInformationData.cs" />
+    <Compile Include="Migrations\202007172201031_AddedMovieInformationData.designer.cs">
+      <DependentUpon>202007172201031_AddedMovieInformationData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007172201518_AddingMovieMockData.cs" />
+    <Compile Include="Migrations\202007172201518_AddingMovieMockData.designer.cs">
+      <DependentUpon>202007172201518_AddingMovieMockData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -270,6 +294,7 @@
     <Content Include="Views\Customer\Details.cshtml" />
     <Content Include="Views\Customer\Index.cshtml" />
     <Content Include="Views\Movie\Random.cshtml" />
+    <Content Include="Views\Movie\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -302,6 +327,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202007172032295_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>202007172032295_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172054181_AddedNameToMembershipTypeModel.resx">
+      <DependentUpon>202007172054181_AddedNameToMembershipTypeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172055461_updateExistingRecords.resx">
+      <DependentUpon>202007172055461_updateExistingRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172107512_AddedBirthdateToCustomer.resx">
+      <DependentUpon>202007172107512_AddedBirthdateToCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172120111_FixedBirthdateForCustomer.resx">
+      <DependentUpon>202007172120111_FixedBirthdateForCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172201031_AddedMovieInformationData.resx">
+      <DependentUpon>202007172201031_AddedMovieInformationData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007172201518_AddingMovieMockData.resx">
+      <DependentUpon>202007172201518_AddingMovieMockData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

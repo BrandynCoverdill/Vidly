@@ -16,13 +16,15 @@ else
         <thead>
             <tr>
                 <th>Movies</th>
+                <th>Genre</th>
             </tr>
         </thead>
         @foreach (var movie in Model)
         {
             <tbody>
                 <tr>
-                    <td>@movie.Name</td>
+                    <td><a href="/Movie/Details/@movie.Id">@movie.Name</a></td>
+                    <td>@movie.Genre</td>
                 </tr>
             </tbody>
         }

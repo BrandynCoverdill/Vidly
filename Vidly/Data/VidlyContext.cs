@@ -21,7 +21,7 @@ namespace Vidly.Data
         {
         }
 
-        public System.Data.Entity.DbSet<Vidly.Models.Movie> Movies { get; set; }
+        public DbSet<Movie> Movies { get; set; }
 
         public System.Data.Entity.DbSet<Vidly.Models.Customer> Customers { get; set; }
 

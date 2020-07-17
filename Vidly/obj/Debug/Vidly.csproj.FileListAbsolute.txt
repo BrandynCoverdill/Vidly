@@ -173,3 +173,9 @@ C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedNameToMembershipTypeModel.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.updateExistingRecords.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedBirthdateToCustomer.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixedBirthdateForCustomer.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedMovieInformationData.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieMockData.resources

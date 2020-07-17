@@ -44,6 +44,21 @@ namespace Vidly.Controllers
             return View(db.Movies.ToList());
         }
 
+        public ActionResult Details(int? id)
+        {
+            if (id == null)
+            {
+                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+            }
+            Movie movie = db.Movies.SingleOrDefault(m => m.Id == id);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
+
+            return View(movie);
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

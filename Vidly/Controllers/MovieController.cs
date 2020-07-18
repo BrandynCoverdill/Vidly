@@ -59,6 +59,89 @@ namespace Vidly.Controllers
             return View(movie);
         }
 
+        public ActionResult New()
+        {
+            List<SelectListItem> movieGenres = new List<SelectListItem>
+            {
+                new SelectListItem {Text="Action", Value="Action"},
+                new SelectListItem {Text="Thriller", Value="Thriller"},
+                new SelectListItem {Text="Family", Value="Family"},
+                new SelectListItem {Text="Romance", Value="Romance"},
+                new SelectListItem {Text="Comedy", Value="Comedy"}
+            };
+
+            ViewBag.genres = movieGenres;
+            ViewBag.movieId = 0;
+            ViewBag.Title = "New Movie";
+
+            return View("MovieForm");
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Save(Movie movie)
+        {
+            if (!ModelState.IsValid)
+            {
+                List<SelectListItem> movieGenres = new List<SelectListItem>
+                    {
+                        new SelectListItem {Text="Action", Value="Action"},
+                        new SelectListItem {Text="Thriller", Value="Thriller"},
+                        new SelectListItem {Text="Family", Value="Family"},
+                        new SelectListItem {Text="Romance", Value="Romance"},
+                        new SelectListItem {Text="Comedy", Value="Comedy"}
+                    };
+
+                ViewBag.genres = movieGenres;
+                ViewBag.Title = "New Movie";
+                return View("MovieForm", movie);
+            }
+
+            if (movie.Id == 0)
+            {
+                db.Movies.Add(movie);
+            }
+            else
+            {
+                var movieInDb = db.Movies.SingleOrDefault(c => c.Id == movie.Id);
+
+                movieInDb.Name = movie.Name;
+                movieInDb.Genre = movie.Genre;
+                movieInDb.ReleaseDate = movie.ReleaseDate;
+                movieInDb.DateAdded = movie.DateAdded;
+                movieInDb.NumberInStock = movie.NumberInStock;
+
+                }
+
+            db.SaveChanges();
+
+            return RedirectToAction("Index", "Movie");
+        }
+        public ActionResult Edit(int id)
+        {
+            var movie = db.Movies.SingleOrDefault(c => c.Id == id);
+            if (movie == null)
+            {
+                return HttpNotFound();
+            }
+
+            List<SelectListItem> movieGenres = new List<SelectListItem>
+            {
+                new SelectListItem {Text="Action", Value="Action"},
+                new SelectListItem {Text="Thriller", Value="Thriller"},
+                new SelectListItem {Text="Family", Value="Family"},
+                new SelectListItem {Text="Romance", Value="Romance"},
+                new SelectListItem {Text="Comedy", Value="Comedy"}
+            };
+            ViewBag.movieId = movie.Id;
+            ViewBag.genres = movieGenres;
+            ViewBag.Title = "Edit Movie";
+
+            return View("Edit", movie);
+
+
+        }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

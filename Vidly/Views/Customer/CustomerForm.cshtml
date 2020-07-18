@@ -1,24 +1,20 @@
 ﻿@model Vidly.ViewModels.CustomerFormViewModel
 
 @{
-    ViewBag.Title = "New";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>New Customer</h2>
+<h2>@ViewBag.Title</h2>
 
 <!--Create [action] Customers [controller]-->
 @using (Html.BeginForm("Save", "Customer"))
 {
-
+    @Html.ValidationSummary(true, "Please Fix the Following Errors.")
     <div class="form-group">
         @Html.LabelFor(c => c.Customer.Name)
         <!-- The second argument is an anonymous object that you can add to the html tags. (class, id, etc) -->
         @Html.TextBoxFor(m => m.Customer.Name, new { @class = "form-control" })
-    </div>
-    <div class="form-group">
-        @Html.LabelFor(m => m.Customer.Birthdate)
-        @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Name)
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.Customer.MembershipTypeId)
@@ -26,6 +22,12 @@
             The next argument in Select List is to specify the name of the property.
             The third argument in Select List is to specify the text for each item. -->
         @Html.DropDownListFor(m => m.Customer.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.MembershipTypeId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Customer.Birthdate)
+        @Html.TextBoxFor(m => m.Customer.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Customer.Birthdate)
     </div>
     <div class="checkbox">
         <label>
@@ -34,9 +36,15 @@
     </div>
 
     <!-- Hidden Forms -->
-    @Html.HiddenFor(m => m.Customer.Id)
+    @Html.HiddenFor(m => m.Customer.Id, new { @Value = ViewBag.customerId })
+    @Html.AntiForgeryToken()
 
     <button type="submit" class="btn btn-primary">Save</button>
 
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
 }
 

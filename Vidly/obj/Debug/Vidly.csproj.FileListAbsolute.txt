@@ -179,3 +179,4 @@ C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.modifiedDatabaseSoThingsAreRequired.resources

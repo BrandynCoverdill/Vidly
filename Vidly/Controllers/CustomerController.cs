@@ -50,13 +50,27 @@ namespace Vidly.Controllers
                 MembershipTypes = membershipTypes
             };
 
+            ViewBag.customerId = 0;
+            ViewBag.Title = "New Customer";
+
             return View("CustomerForm", viewModel);
         }
 
         // Action that saves the customer to the database.
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Save(Customer customer)
         {
+            if (!ModelState.IsValid)
+            {
+                var viewModel = new CustomerFormViewModel
+                {
+                    Customer = customer,
+                    MembershipTypes = db.MembershipTypes.ToList()
+                };
+
+                return View("CustomerForm", viewModel);
+            }
             // Check to see if this is a new customer, if not, update the customer.
             if (customer.Id == 0)
             {
@@ -90,6 +104,9 @@ namespace Vidly.Controllers
                 Customer = customer,
                 MembershipTypes = db.MembershipTypes.ToList()
             };
+
+            ViewBag.customerId = customer.Id;
+            ViewBag.Title = "Edit Customer";
 
             return View("CustomerForm", viewModel);
 

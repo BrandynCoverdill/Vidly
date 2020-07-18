@@ -82,9 +82,6 @@ C:\Users\Brandyn\Desktop\Vidly2\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\Brandyn\Desktop\Vidly2\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\Users\Brandyn\Desktop\Vidly2\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Brandyn\Desktop\Vidly2\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.dll
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.pdb
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Vidly.dll.config
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Vidly.dll
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Vidly.pdb
@@ -165,13 +162,10 @@ C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Micro
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Microsoft.Owin.Security.OAuth.xml
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.InitialCreate.resources
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddIsSubscribedToCustomer.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddMembershipType.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.PopulateMembershipTypes.resources
-C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.ApplyAnnotationsToCustomerName.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedNameToMembershipTypeModel.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.updateExistingRecords.resources
@@ -179,3 +173,9 @@ C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.FixedBirthdateForCustomer.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddedMovieInformationData.resources
 C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.Migrations.AddingMovieMockData.resources
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.GenerateResource.cache
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.cache
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.dll
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\Users\Brandyn\Desktop\Projects\Learning\C#\VidlyProject\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache

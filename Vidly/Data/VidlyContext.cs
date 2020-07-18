@@ -25,6 +25,8 @@ namespace Vidly.Data
 
         public System.Data.Entity.DbSet<Vidly.Models.Customer> Customers { get; set; }
 
+        public DbSet<MembershipType> MembershipTypes { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
